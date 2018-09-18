@@ -3,4 +3,5 @@
 
  module.exports = function () {
    process.stdout.write(workingDirectory);
+   process.stdout.write('\nprompt >')
  }
